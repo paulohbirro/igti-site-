@@ -1,0 +1,158 @@
+/*
+Theme Name: IGTI
+Theme URI: 
+Author: Paulo Birro
+Author URI: https://wordpress.org/
+
+*/
+
+@import url('css/bootstrap.min.css');
+@import url('css/style.css');
+
+
+/* HOME */
+
+/* reset */
+
+body { overflow-x: hidden; }
+
+* {
+margin:0;
+padding:0;
+list-style:none;
+vertical-align:baseline;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 3px;
+}
+.btn.btn-blue {
+  color: #fff;
+  background-color: #00b9b3;
+}
+.btn.btn-blue:focus,
+.btn.btn-blue:hover {
+  color: #fff;
+  background-color: #063f3c;
+}
+.btn.btn-black {
+  color: #fff;
+  background-color: black;
+}
+.btn.btn-black:focus,
+.btn.btn-black:hover {
+  color: #fff;
+  background-color: #063f3c;
+}
+.btn.btn-big {
+  font-size: 12px;
+  min-height: 76px;
+  display: inline-flex;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+@media (min-width: 480px) {
+  .btn.btn-big {
+    font-size: 16px;
+  }
+}
+.btn.btn-big span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.btn.btn-large {
+  padding: 12px 40px;
+  font-size: 12px;
+}
+@media (min-width: 480px) {
+  .btn.btn-large {
+    font-size: 16px;
+  }
+}
+
+.btn.btn-gray-disabled,
+.btn.btn-gray-disabled:focus,
+.btn.btn-gray-disabled:hover {
+  color: #fff;
+  background-color: #ccc;
+}
+
+
+#link_contato{ text-decoration: none; color:silver; text-align: right;padding-top:10px;}
+
+#menu_topo{padding-top: 5px;}
+
+#topo{text-align: center;}
+
+#banner_meio{
+    background: url('img/banner_meio.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+}
+
+.container-fluid{background-color: white;}
+
+.carousel-caption {
+   position: absolute;
+   top:115px
+}
+
+.center {float:none; display:block; margin-left:auto; margin-right:auto;}
+
+div{border:0px solid red;}
+
+#titulo_pos_graduacao{
+	padding-top: 160px;
+	padding-bottom: 30px;
+	text-align:center; font-weight: bold;
+	font-weight: 200;
+	font-size: 60px;
+}
+
+.img-thumbnail{border-radius:10px; border: solid 20px #FAFAFA;}
+
+.img_banner{width:100%;}
+
+#linha_icones_home{text-align: center;background-color: #FAFAFA;padding-top: 100px;}
+
+#icones_curso{text-align: center; background-color: #FAFAFA;}
+
+.icones_curso{padding-bottom:100px; padding-top: 40px; color:silver; font-weight: bold;}
+
+#link_contato{color:black; font-size:18px; height:58px;}
+
+#menu_movel{ padding-top: 15px; height:auto;position: absolute;}
+
+/* COMO FUNCIONA */
+
+#box_c_funciona{background-color:#EBEBEB; padding-top: 50px; text-align: center;}
+
+.cinza{background-color:#EBEBEB; }
+
+#title_c_funciona{padding-bottom:100px;
+padding-top: 0px;
+	padding-bottom: 30px;
+	text-align:center; font-weight: bold;
+	font-weight: 200;
+	font-size: 60px;
+ }
+
+#boxe_menor_f{width: 300px;}
+
+#boxe_menor_esquerda{padding-left: 200px;}
+
+/* FIM FUNCIONA*/
+
+/* INICIO MAPA*/
+
+#lista_estados{font-size: 20px; text-decoration: underline;}
+.link_mapas{color: black;}
+
+body { overflow-x: hidden; }
